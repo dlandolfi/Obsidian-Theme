@@ -1,0 +1,76 @@
+:root {
+	--primary-color: #af7a6d;
+	--secondary-color: #b5d6b2;
+	--tertiary-color: #b8b3e9;
+	--quartary-color: #41337a;
+	--quintary-color: #0d5c63;
+	--senary-color: #c0c0c0;
+
+	--code-primary-color: #c0c0c0;
+	--code-background-color: #2a3439;
+}
+body {
+	--radius-s: 0px;
+	--radius-m: 0px;
+	--radius-l: 0px;
+	--input-radius: 0px;
+	--tab-radius-active: 0px;
+	--checkbox-radius: 0px;
+	--toggle-radius: 0px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;
+}
+
+.theme-dark {
+	--h1-color: var(--primary-color);
+	--h2-color: var(--secondary-color);
+	--h3-color: var(--tertiary-color);
+	--h4-color: var(--quartary-color);
+	--h5-color: var(--quintary-color);
+	--h6-color: var(--senary-color);
+
+	--italic-color: var(--primary-color);
+	--bold-color: var(--primary-color);
+
+	--code-normal: var(--code-primary-color);
+	--code-background: var(--code-background-color);
+}
+
+.theme-light {
+	--background-primary: #ece4ff;
+	--background-secondary: #d9c9ff;
+
+	--h1-color: var(--primary-color);
+	--h2-color: var(--secondary-color);
+	--h3-color: var(--tertiary-color);
+	--h4-color: var(--quartary-color);
+	--h5-color: var(--quintary-color);
+	--h6-color: var(--senary-color);
+
+	--italic-color: var(--primary-color);
+	--bold-color: var(--secondary-color);
+}
+
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
