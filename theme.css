@@ -21,6 +21,13 @@ body {
 	--slider-thumb-radius: 0px;
 }
 
+.graph-view.color-line-highlight {
+	color: var(--senary-color);
+}
+
+.graph-view.color-node-highlight {
+	color: var(--secondary-color);
+}
 .theme-dark {
 	--h1-color: var(--primary-color);
 	--h2-color: var(--secondary-color);
@@ -34,6 +41,10 @@ body {
 
 	--code-normal: var(--code-primary-color);
 	--code-background: var(--code-background-color);
+
+	--graph-text: rgb(204, 204, 204);
+	--graph-node: var(--primary-color);
+	--graph-line: var(--quintary-color);
 }
 
 .theme-light {
