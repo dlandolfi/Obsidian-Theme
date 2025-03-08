@@ -10,15 +10,15 @@
 	--code-background-color: #2a3439;
 }
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
+	--radius-s: 5px;
+	--radius-m: 5px;
+	--radius-l: 5px;
+	--input-radius: 5px;
+	--tab-radius-active: 5px;
+	--checkbox-radius: 5px;
+	--toggle-radius: 15px;
+	--toggle-thumb-radius: 15px;
+	--slider-thumb-radius: 15px;
 }
 
 .graph-view.color-line-highlight {
